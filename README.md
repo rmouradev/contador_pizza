@@ -40,3 +40,52 @@ O **Contador de Rodízio** resolve isso. Você cria uma sala, manda o link no gr
 ├── rodizio.db        # Banco de dados SQLite (gerado automaticamente)
 └── templates/
     └── sala.html     # Interface do usuário (Frontend)
+```
+
+Hospedado temporariamente em: https://rmouradev1.pythonanywhere.com/
+
+📦 Como Rodar Localmente
+Pré-requisitos: Python 3 instalado.
+
+Clone o repositório
+
+Bash
+git clone [https://github.com/SEU_USUARIO/contador-rodizio.git](https://github.com/SEU_USUARIO/contador-rodizio.git)
+
+cd contador-rodizio
+Crie um ambiente virtual (Opcional, mas recomendado)
+
+Bash
+python -m venv venv
+# No Windows:
+venv\Scripts\activate
+# No Mac/Linux:
+source venv/bin/activate
+Instale as dependências
+
+Bash
+pip install flask flask-sqlalchemy
+Execute o projeto
+
+Bash
+flask --app flask_app run
+Acesse: Abra http://127.0.0.1:5000 no seu navegador.
+
+☁️ Deploy no PythonAnywhere
+Este projeto foi otimizado para rodar facilmente no PythonAnywhere.
+
+Crie uma conta gratuita.
+
+Em Web Apps, crie um novo app Flask.
+
+Em Files, faça upload do flask_app.py e da pasta templates.
+
+Instale as dependências no console do PythonAnywhere: pip install flask-sqlalchemy.
+
+Recarregue o app e pronto!
+
+🤝 Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+📝 Licença
+Este projeto está sob a licença MIT.
