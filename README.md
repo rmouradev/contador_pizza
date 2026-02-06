@@ -8,7 +8,7 @@
 
 ## 📸 Screenshots
 
-![Screenshot do App](https://via.placeholder.com/800x400?text=Adicione+um+Print+Aqui)
+![Screenshot do App](/print.jpg)
 
 ## 📖 Sobre o Projeto
 
